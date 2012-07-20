@@ -1,0 +1,11 @@
+How to use?
+===========
+
+You can import jquery_infinite_ajax_scroll from ``js.jquery_infinite_ajax_scroll`` 
+and ``need`` it where you want these resources to be included on a page::
+
+  >>> from js.jquery_infinite_ajax_scroll import jquery_infinite_ajax_scroll
+  >>> jquery_infinite_ajax_scroll.need()
+
+  >>> from js.jquery_infinite_ajax_scroll import jquery_infinite_ajax_scroll_css
+  >>> jquery_infinite_ajax_scroll_css.need()
